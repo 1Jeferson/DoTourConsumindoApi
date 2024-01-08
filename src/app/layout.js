@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 
 
 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   )
