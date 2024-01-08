@@ -1,0 +1,20 @@
+.sobre_nos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 85%;
+    margin-left: 9%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.sobre_nos h1 {
+    color: #121212;
+    font-size: 25px;
+}
+
+.sobre_nos p {
+    color: #121212;
+    font-size: 18px;
+}
