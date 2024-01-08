@@ -21,17 +21,17 @@ export default function NavBar() {
                     <img src='/img/Dotour.svg' />
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link text-light"  href="#">
+                            <a className="nav-link text-light"  href="/">
                                 Home
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" href="#">
+                            <a className="nav-link text-light" href="/Destinos">
                                 Destinos
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-light" href='#'>
+                            <a className="nav-link text-light" href="#">
                                 Promoções
                             </a>
                         </li>
@@ -41,17 +41,6 @@ export default function NavBar() {
                             </a>
                         </li>
                     </ul>
-                    <form className="d-flex" role="search">
-                        <input
-                            className="form-control me-2"
-                            type="search"
-                            placeholder="Search"
-                            aria-label="Search"
-                        />
-                        <button className="btn btn-outline-success" type="submit">
-                            Buscar
-                        </button>
-                    </form>
                 </div>
             </div>
         </nav>
