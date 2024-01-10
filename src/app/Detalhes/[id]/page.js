@@ -1,6 +1,6 @@
 export default async function Detalhes({ params }) {
 
-const card = await fetch(`http://localhost:8080/destino/${params.id}`).then((res) => res.json())
+const card = await fetch(`https://dotour-deploy.onrender.com/destino/${params.id}`).then((res) => res.json())
 
     return (
         <div className="container mt-5">

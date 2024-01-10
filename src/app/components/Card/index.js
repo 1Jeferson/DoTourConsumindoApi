@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './card.module.css';
 
 export default async function Card() {
-    const cards = await fetch('http://localhost:8080/destino/alldestinos').then(res => res.json());
+    const cards = await fetch('https://dotour-deploy.onrender.com/destino/alldestinos').then(res => res.json());
 
     return (
         <div id="melhores-destinos" className={styles.container}>

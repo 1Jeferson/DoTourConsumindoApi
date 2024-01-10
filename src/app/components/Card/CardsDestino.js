@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 export default async function CardDestino() {
-    const cards = await fetch('http://localhost:8080/destino/alldestinos').then(res => res.json());
+    const cards = await fetch('https://dotour-deploy.onrender.com/destino/alldestinos').then(res => res.json());
 
     return (
 
