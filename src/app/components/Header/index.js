@@ -18,7 +18,7 @@ export default function NavBar() {
                     <span className="navbar-toggler-icon" />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <img src='/img/Dotour.svg' />
+                    <img className= "mx-3" src='/img/Dotour.svg' />
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
                             <a className="nav-link text-light"  href="/">

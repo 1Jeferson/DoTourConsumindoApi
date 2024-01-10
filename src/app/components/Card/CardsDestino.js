@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './card.module.css';
+import Link from 'next/link';
 
 
 
@@ -20,9 +21,14 @@ export default async function CardDestino() {
                                 <p className="card-text">
                                     {card.descricao}
                                 </p>
-                                <a href="#" className="btn btn-warning">
-                                    Visitar
-                                </a>
+                                <Link href={{
+                                    pathname: `/Detalhes/`,
+                                    query: { id: card.id },
+                                }}
+                                    as={`/Detalhes/${card.id}`}
+                                    className="btn btn-warning">
+                                    Detalhes
+                                </Link>
                             </div>
                         </div>
                     ))}
