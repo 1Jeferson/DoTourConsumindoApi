@@ -12,16 +12,16 @@ Se você deseja executar o projeto localmente, siga estas etapas:
 
  **Clone o repositório:**
 
-    ```
+    
     git clone https://github.com/seu-usuario/dotour.git
     cd dotour
-    ```
+    
 
  **Instale as dependências:**
 
-    ```
+    
     npm install
-    ```
+    
 
 ## Tecnologias Utilizadas
 
